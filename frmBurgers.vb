@@ -32,9 +32,13 @@ Public Class frmBurgers
     Private Sub btnSelectMeal_Click(sender As Object, e As EventArgs) Handles btnSelectMeal.Click
         'Selects the burger option
         'Enables exit button
+        'Disables selection button, veggie button, prime button
         lblConfirmation.Visible = True
         lblInstructions.Visible = False
         btnExit.Enabled = True
+        btnPrime.Enabled = False
+        btnSelectMeal.Enabled = False
+        btnVeggie.Enabled = False
 
     End Sub
 
