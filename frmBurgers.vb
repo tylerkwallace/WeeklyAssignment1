@@ -33,6 +33,8 @@ Public Class frmBurgers
         'Selects the burger option
         'Enables exit button
         'Disables selection button, veggie button, prime button
+        'Hides the instruction label
+        'Shows the confirmation label
         lblConfirmation.Visible = True
         lblInstructions.Visible = False
         btnExit.Enabled = True
